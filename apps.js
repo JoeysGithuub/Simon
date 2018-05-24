@@ -1,13 +1,14 @@
-const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]]
+const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]] 
+let candy = k;
 
-for (let k = 0; k < locations.length; k++) {
+for (k = 0; k < locations.length; k++) {
     const currentLocation = locations[k]
 
     if (currentLocation[0] > 2) {
-        const invalidLocation = true
+        let invalidLocation = true
     }
 
-    if (invalidLocation) {
+    if (false) {
         console.log("This location is invalid")
     }
 }
